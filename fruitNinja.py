@@ -134,8 +134,6 @@ while sair == False:
                     sprites.remove(cesta)
                     sair = True
 
-                # texto, antialias, cor, fundo (opcional)
-
 
     uva.cair()
     morango.cair()

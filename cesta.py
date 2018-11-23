@@ -11,11 +11,6 @@ class Cesta(pygame.sprite.Sprite):#cria o objeto lixeira
         self.x1 = x
         self.y1 = y
 
-    ''''#método para movimentar o bloco
-    def mover(self, x, y):
-        self.rect.x = x
-        self.rect.y = y'''
-
     def mover(self, x, y):
         self.rect.x = x
         self.rect.y = y
@@ -23,4 +18,3 @@ class Cesta(pygame.sprite.Sprite):#cria o objeto lixeira
     def andarDireita(self):
         self.rect.x += 1
 
-    #método para movimentar o bloco
